@@ -9,5 +9,7 @@ Gruppe:
 Elena Müller, Alicia Cardoso, Alessia Frozzi
 
 Outline
+Wir wollen herausfinden in welchen Länder am meisten Suizid begangen wird, und wieso das so ist. Diese Daten vergleichen wir mit der Lage vor 10 Jahren. Und finden so heraus, was passiert ist und wieso die zahlen heruntergegangen oder nach oben gegangen sind. 
 
 Fragestellung:
+Welches Land hat die höchste Suizidrate? Wieso?
