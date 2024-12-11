@@ -1,0 +1,13 @@
+imimport pandas as pd
+
+df = pd.read_csv('death-rate-from-suicides-gho.csv', skiprows=1, names=['Gebiet','Code','Jahr','Lebenserwartung'])
+
+len(df['Gebiet'].unique())
+
+df['Gebiet'].value_counts()
+
+df['Gebiet'].value_counts().head(25).plot(kind='barh', xlabel='Anzahl Datenpunkte')
+
+ax = df['Gebiet'].value_counts().plot(kind='bar', ylabel='Anzahl Datenpunkte')
+ax.set_xticklabels([]);   #  remove x-ticks labels
+
