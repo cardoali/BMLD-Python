@@ -1,6 +1,6 @@
-imimport pandas as pd
+import pandas as pd
 
-df = pd.read_csv('death-rate-from-suicides-gho.csv', skiprows=1, names=['Gebiet','Code','Jahr','Lebenserwartung'])
+df = pd.read_csv('death-rate-from-suicides-gho.csv', skiprows=1, names=['Gebiet','Code','Jahr','Suizidrate'])
 
 len(df['Gebiet'].unique())
 
